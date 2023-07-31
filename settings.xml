@@ -1,4 +1,4 @@
-
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <servers>
 <server>
     <id>bcr-B78am</id>
