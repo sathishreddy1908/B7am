@@ -36,12 +36,10 @@
             <version>5.0.7.RELEASE</version>
         </dependency>
         <distributionManagement>
-        <repositories>
-      <repository>
+              <repository>
         <id>bcr-B78am</id>
         <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
       </repository>
-    </repositories>
         </distributionManagement>
         <dependency>
             <groupId>org.springframework</groupId>
