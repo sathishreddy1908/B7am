@@ -35,12 +35,7 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.0.7.RELEASE</version>
         </dependency>
-        <distributionManagement>
-              <repository>
-        <id>bcr-B78am</id>
-        <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
-      </repository>
-        </distributionManagement>
+       
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -82,6 +77,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+     <distributionManagement>
+              <repository>
+        <id>bcr-B78am</id>
+        <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
+      </repository>
+        </distributionManagement>
 
     <build>
         <pluginManagement>
