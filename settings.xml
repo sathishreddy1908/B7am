@@ -1,0 +1,22 @@
+<servers>
+  <server>
+    <id>bcr-B78am</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>bcr-B78am</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>bcr-B78am</id>
+        <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
