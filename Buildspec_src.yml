@@ -8,8 +8,8 @@ phases:
     commands:
       #- echo Coding scanning using sonarQube
       #- mvn verify sonar:sonar
-       -echo connecting AWS CodeArtifact 
-       -export CODEARTIFACT_AUTH_TOKEN='aws codeartifact get-authorization-token --domain bcr --domain-owner 915224313430 --region us-east-1 --query authorizationToken --output text'
+       - echo connecting AWS CodeArtifact 
+       - export CODEARTIFACT_AUTH_TOKEN='aws codeartifact get-authorization-token --domain bcr --domain-owner 915224313430 --region us-east-1 --query authorizationToken --output text'
   build:
     commands:
       - echo Build started on `date`
