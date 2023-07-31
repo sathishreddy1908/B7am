@@ -17,6 +17,7 @@
         <sonar.projectKey>sathishreddy_b7-8am</sonar.projectKey>
         <sonar.login>333fdc0692c6fc43b692b0e45bb6a394853e270e</sonar.login>
     </properties>
+    
 
     <dependencies>
         <dependency>
@@ -34,6 +35,14 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.0.7.RELEASE</version>
         </dependency>
+        <distributionManagement>
+        <repositories>
+      <repository>
+        <id>bcr-B78am</id>
+        <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
+      </repository>
+    </repositories>
+        </distributionManagement>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
