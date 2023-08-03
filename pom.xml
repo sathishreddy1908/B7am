@@ -78,11 +78,11 @@
         </dependency>
     </dependencies>
      <distributionManagement>
-          <repository>
+          <snapshotrepository>
        <id>snapshot</id>
        <name>libs-snapshot-local</name>
          <url>http://44.193.195.79:8082/artifactory/libs-snapshot-local/</url>
-       </repository>
+       </snapshotrepository>
               <repository>
                  <id>release</id>
             <name>libs-release-local</name>
