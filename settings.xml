@@ -7,6 +7,7 @@
     
     <username>admin</username>
     <password>Sathish@1908</password>
+    <id>release</id>
   </server>
 </servers>
     <profiles>
