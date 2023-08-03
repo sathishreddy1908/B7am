@@ -18,7 +18,7 @@ phases:
       - ls -lrta
       - ls -lrt $CODEBUILD_SRC_DIR/settings.xml
       - cp -pvr $CODEBUILD_SRC_DIR/settings.xml ~/.m2/settings.xml
-      - echo Artifact Publish to JFROG Based on the User Input on pom.xml file
+      - echo Publish Artifact to JFROG Based on the User Input in POM.xml file
       - mvn deploy
   post_build:
     commands:
