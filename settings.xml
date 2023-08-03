@@ -16,10 +16,20 @@
     </activation>
   <repositories>
       <repository>
-        <id>bcr-B78am</id>
-        <url>https://bcr-915224313430.d.codeartifact.us-east-1.amazonaws.com/maven/B78am/</url>
+        <snapshots><enabled>true</enabled></snapshots>
+        <id>release</id>
+        <name>libs-release-local</name>
+        <url>http://44.193.195.79:8082/artifactory/libs-release-local/</url>
       </repository>
+     <repository>
+       <snapshots>
+       <id>snapshots</id>
+       <name>libs-snapshot-local</name>
+         <url>http://44.193.195.79:8082/artifactory/libs-snapshot-local/</url>
+       </snopshots>
+     </repository>
   </repositories>
+    <id>default</id>
     </profile>
     </profiles>
 </settings>
