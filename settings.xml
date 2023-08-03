@@ -22,11 +22,10 @@
         <url>http://44.193.195.79:8082/artifactory/libs-release-local/</url>
       </repository>
      <repository>
-       <snapshots>
+       <snapshots />
       
        <name>libs-snapshot-local</name>
          <url>http://44.193.195.79:8082/artifactory/libs-snapshot-local/</url>
-       </snapshots>
      </repository>
   </repositories>
    
