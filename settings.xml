@@ -29,7 +29,7 @@
        </snapshots>
      </repository>
   </repositories>
-    <id>default</id>
+   
     </profile>
     </profiles>
 </settings>
