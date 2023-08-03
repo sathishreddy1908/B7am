@@ -10,20 +10,20 @@
 </servers>
     <profiles>
   <profile>
-    <id>bcr-B78am</id>
+   
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
   <repositories>
       <repository>
         <snapshots><enabled>true</enabled></snapshots>
-         <id>release</id>
+        
         <name>libs-release-local</name>
         <url>http://44.193.195.79:8082/artifactory/libs-release-local/</url>
       </repository>
      <repository>
        <snapshots>
-       <id>snapshots</id>
+      
        <name>libs-snapshot-local</name>
          <url>http://44.193.195.79:8082/artifactory/libs-snapshot-local/</url>
        </snapshots>
