@@ -26,7 +26,7 @@
        <id>snapshots</id>
        <name>libs-snapshot-local</name>
          <url>http://44.193.195.79:8082/artifactory/libs-snapshot-local/</url>
-       </snopshots>
+       </snapshots>
      </repository>
   </repositories>
     <id>default</id>
