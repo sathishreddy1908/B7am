@@ -27,7 +27,7 @@ node {
   stage ('Install') {
       sh "'${mvnHome}/bin/mvn' install"
   }
- stage ('Deploy') {
+ stage ('Install') {
       sh "'${mvnHome}/bin/mvn' Deploy"
   }
   stage ('Deliver Artifact to Tomcat') {
