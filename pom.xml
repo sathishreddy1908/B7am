@@ -13,10 +13,11 @@
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        
         <sonar.organization>sathishreddy</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>sathishreddy_b7-8am</sonar.projectKey>
-        <sonar.login>333fdc0692c6fc43b692b0e45bb6a394853e270e</sonar.login>
+        <sonar.projectKey>sathishreddy_cloudbinary-b78am</sonar.projectKey>
+        <sonar.login>b66c5c490b115c2d5b4727164ddc3acdd5753362</sonar.login>
     </properties>
     
 
