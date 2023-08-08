@@ -51,7 +51,7 @@ stage('Stage-8 : push an Artifact to Artifactory Manager i.e. AWS codeartifact N
                 sh 'mvn deploy'
             }
         }
- stage('Stage-9 : Deliver the artifact to Tomcat cloudbinary_b78am-9.0.0.war file to Tomcat Server') { 
+ stage('Stage-9 : Deliver the artifact to Tomcat cloudbinary-9.0.0.war file to Tomcat Server') { 
             steps {
                 sh 'curl -u admin:Sathish@1908 -T target/**.war "http://3.92.65.6:8080/manager/text/deploy?path=/opswork&update=true"'
             }
